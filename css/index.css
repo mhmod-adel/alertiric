@@ -1,0 +1,937 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'segoe ui light'
+}
+
+.clear
+{
+   clear:both;
+}
+
+body
+{
+    transition:all 2s;
+}
+.container
+{  
+    
+   width: 90%;
+   margin: auto;
+   padding:0 10px;
+   
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.home
+{
+     
+    background-image:url(../images/img/bg-home-1.jpg);
+    background-size: 100%;
+    background-position:top center;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+}
+
+.overlay
+{   
+     
+    height: 100%;
+    background-color:rgba(0,0,0,.3);
+}
+
+.nav
+{
+    
+    overflow: hidden;
+   
+    z-index: 15;
+    height: 85px;
+}
+.nav .container
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.navbar-icon
+{
+  padding-top: 20px;
+  display: none;
+  position: fixed;
+  top: 25px;
+  right: 30px;
+}
+.navbar-icon i
+{
+  color: #f1f1f1;
+  font-size: 30px;
+  display: none;
+ 
+}
+.nav2
+{
+  display: none;
+  background-color: rgba(0,0,0,.7);
+   
+}
+ul.nav2 
+{
+  list-style-type: none;
+}
+.nav2 li
+{
+  padding: 10px 15px;
+  letter-spacing:1px;
+}
+.nav2 a
+{
+  text-decoration: none;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: 800;
+  color: #ccc;
+}
+.nav2 a:hover
+{
+  background-color: #2196F3;
+}
+
+
+ 
+
+.nav ul
+{
+    list-style-type: none; 
+    float:right;
+}
+
+.nav ul li
+{
+    float: left;
+    padding:35px 15px;
+    letter-spacing:1px;
+}
+
+.nav ul li a
+{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    font-weight:600;
+    font-size: 14px;
+    text-transform:uppercase;
+    padding: 10px;
+}
+.nav ul li a:hover
+{
+    color: #2196F3;
+    border-bottom:2px solid #2196F3;
+    border-radius: 50%;
+     
+
+}
+
+.nav .logo
+{
+    float:left;
+    padding: 25px 0 20px 0 ;
+}
+
+.nav .logo img
+{
+    width:130px;
+    height:50px;
+}
+
+.nav ul .btn
+{
+    padding:15px 25px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    background-color:#FFF;
+    color:#333;
+    border-radius: 2px;
+}
+
+
+.nav ul .btn:hover
+{
+    background-color: #2196F3;
+    color:#FFF;
+    border-radius:2px ;
+}
+
+.caption
+{
+    padding-top:15%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15%;
+}
+
+.caption p
+{
+    margin-bottom:45px;
+    color: rgba(255, 255, 255, 0.92);
+    font-weight: 400px;
+    font-size: 20px;
+    font-family:'open sans',arial;
+}
+
+.caption h1
+{
+    margin-bottom: 60px;
+    padding-left:40px;
+    padding-right: 40px;
+    font-weight: 400px;
+    color: #FFF;
+    font-family: 'open sans', arial;
+    font-style: normal;
+    font-size:40px;
+}
+
+.caption button
+{
+    padding:20px 15px;
+    border:none;
+    border-radius:2px;
+    background-color:#2196F3;
+    color:#FFF;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size:14px;
+}
+
+.caption button:hover
+{
+    background-color: #FFF;
+    color:#000;
+    cursor:pointer;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.advantages 
+{
+   background-color: #fff;
+   padding:100px 55px ; 
+   overflow: auto;
+}
+
+.content
+{
+    width: 33.333%;
+    float: left;
+}
+.icon
+{
+    float:left;
+}
+
+.icon i
+{
+    font-size: 30px;
+    color: #2196F3;
+}
+
+.advantages .adv
+{
+    padding-right:40px;
+    padding-left: 50px;
+}
+
+.adv h3
+{
+    color: #303030;
+    font-family:'open sans',arial;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom:10px;
+}
+
+.adv p
+{
+    color: #888888;
+    font-family:'open sans',arial;
+    font-size:16px;
+    font-weight: 400;
+    line-height:30px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.our-services
+{
+    background-color: #f8f8f8;
+    overflow: auto;
+    padding:30px 0 50px 0 ;
+}
+
+.heading
+{
+    margin-top:15px;
+    text-align: center;
+    padding:3em 20px;
+}
+
+.heading h2
+{
+    color: #303030;
+    font-family:"Open Sans", arial;
+    font-weight: 400px;
+    font-size:36px;
+    margin-bottom: 20px;
+
+}
+
+.heading p
+{
+    color: #888888;
+    font-family:"Open Sans", arial;
+    font-weight: 400px;
+    font-size:20px;
+}
+
+.services
+{
+    float: left;
+    width: 33.33%;  
+    padding: 15px;
+}
+
+.services img
+{
+    max-width: 100%;
+    height: auto;
+    transition: all 1s;
+}
+
+.services img:hover
+{
+    transform: scale(1.04);
+}
+
+.img-scale{overflow: hidden;}
+
+.description
+{
+    padding:25px;
+    background-color: #FFF;
+    margin-top:2px;
+}
+
+.description h2
+{
+    color: #303030;
+    font-size: 18px;
+    font-weight:200px;
+    font-family:"Open Sans", arial;
+    padding-bottom:10px;
+}
+
+.description p
+{
+    color: #888888;
+    font-size: 16px;
+    font-weight:200px;
+    font-family:"Open Sans", arial;
+    line-height: 30px;
+}
+
+.description a
+{
+    color:#666666;
+    padding-top:20px;
+    display: inline-block;
+    font-family:"Open Sans", arial;
+    font-weight: 400px;
+    font-size:15px;
+    text-decoration:none;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.our-secret
+{
+    padding:5em 0;
+}
+
+.sec-info
+{
+    padding:15px 15px 0 0;
+}
+
+ .img-tem
+{
+    float:left;
+    width:40%;
+    height: 570px;text-align: center;
+}
+
+.sec-info   
+{
+    float:left;
+    width:60%;
+}
+.img-tem .img 
+{
+    width: 100%;
+    height: 90%;
+    background-image: url("../images/img/formacion-spain-foto-grid-5.jpg");
+    background-size: 100%;
+    padding-left:20px;
+     
+}
+.img-tem span
+{
+    color:#303030 ;
+    font-size: 30px;
+    cursor:pointer;
+     
+    
+}
+.img-tem span:hover
+{
+    color:#2196F3;
+}
+
+.sec-info h3
+{
+    padding-top:50px;
+    padding-bottom:30px;
+    color: #303030;
+    font-size: 30px;
+    font-weight:200px;
+    font-family:"Open Sans", arial;
+}
+
+.sec-info p
+{
+    color: #686868;
+    width: 80%;
+    font-size: 15px;
+    font-weight:200px;
+    font-family:"Open Sans", arial;
+    line-height:28px;
+}
+
+.sec-info p span{padding-right:15px; color:#4caf50}
+.p-icon{margin-bottom:10px;}
+
+.sec-info .txt-info 
+{
+    padding-bottom:30px;
+}
+
+.sec-info button
+{
+    padding:20px 30px;
+    margin-top:20px;
+    border:none;
+    text-transform: uppercase;
+    background-color:#2196F3; 
+    color:#FFF;
+    border-radius:5px;
+    cursor: pointer;
+}
+
+.sec-info button:hover
+{
+    background-color:#000; 
+    color:#FFF;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+.messages
+{
+    background-color: #f8f8f8;
+    overflow: auto;
+    padding: 50px 0;
+}
+
+.message-icon
+{
+   text-align: center;
+   padding: 30px;
+    margin-top:20px;
+}
+.message-icon i
+{
+    margin: auto;
+    font-size: 30px;
+    color: #2196F3;
+}
+.msg
+{
+    float: left;
+    padding:20px 10px ;
+    width: 33.333%;
+    margin:auto;
+}
+.msg img
+{
+ width: 100%;
+  
+ border-radius: 4px;
+ 
+}
+.msm-content
+{
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 10px;
+    border-radius:5px;
+}
+
+.msm-content p
+{
+    color: #686868;
+    font-size: 16px;
+    font-weight:400px;
+    line-height:30px;
+    font-family:"Open Sans", arial;
+    
+
+}
+
+.msg  h2
+{
+    color: #686868;
+    font-size: 15px;
+    font-weight:200px;
+    line-height:28px;
+    font-family:"Open Sans", arial;
+}
+
+.msg-icon
+{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.msg-icon span i
+{
+    font-size:40px;
+    color:#686868;
+    cursor:pointer;
+}
+.msg-icon span i:hover
+{
+    color:#2196F3;
+}
+
+.icon-msg i:hover
+{
+     color:#4caf50;
+}
+
+.msg span
+{
+    margin-top: 10px;
+    display: inline-block;
+    padding-left: 5px;
+    color: #686868;
+    font-size: 15px;
+    font-weight:400px;
+    line-height:28px;
+    font-family:"Open Sans", arial;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.about-website
+{
+    padding:40px 0;
+    background-color: #FFF;
+}
+
+.about-info
+{
+    float: left;
+    background-color:#FFF;
+    width:25%;
+    margin: 40px 0 ;
+    padding: 50px;
+    text-align: center;
+}
+
+.about-icon
+{
+   font-size:40px; 
+    color:#686868 ;
+    cursor: pointer;
+}
+
+.about-icon:hover
+{
+    color: #2196F3;
+}
+
+.about-info h1
+{
+    color: rgba(0, 0, 0, 0.75);
+    font-size:52px;
+    font-weight:400px;
+    line-height:54px;
+    font-family:"Open Sans", arial;
+    padding-top:30px;
+}
+
+.about-info span
+{
+    color: rgba(0, 0, 0, 0.55);
+    font-size:20px;
+    font-weight:400px;
+    line-height:28px;
+    font-family:"Open Sans", arial;
+    padding-top: 30px;
+    display: inline-block;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+.slider
+{
+    background-image: url(../images/img/home-bg-2.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    height: 400px;
+}
+
+.overlay-add
+{
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+}
+
+.additional-value
+{
+    width: 90% ;
+    margin: auto;
+    padding: 3% 0;
+}
+
+.additional-value h1
+{
+    padding: 30px;
+    color: #FFF;
+    font-size:32px;
+    font-weight:400px;
+    line-height:44px;
+    font-family:"Open Sans", arial;
+    
+}
+
+.additional-value p
+{
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.92);
+    font-size:20px;
+    font-weight:400px;
+    line-height:37px;
+    font-family:"Open Sans", arial;
+}
+
+.additional-value button
+{
+    padding:15px 25px;
+    text-transform:uppercase;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight:400;
+    background-color:#FFF;
+    background-color: #2196F3;
+    color:#FFF;
+    border:none;
+    cursor: pointer;
+    border-radius:5px;
+}
+
+.additional-value button:hover
+{
+    color:#333;
+    background-color:#FFF;
+}
+
+ 
+
+/*--------------------------------------------------------------------------------------------*/
+
+.logo-section
+{
+    background-color: #f8f8f8;
+    overflow: auto;
+    padding:70px;
+}
+.img-logo
+{
+    float: left;
+    width:20%;
+    padding:30px;
+}
+.img-logo img
+{
+    width:60px;
+    
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+.contact-section
+{
+    background-color:#2196F3;
+    padding: 50px 0;
+    position: relative;
+}
+
+.contact-content
+{
+    margin:30px 0;
+}
+
+.contact-section h2
+{
+    font-size:30px;
+    white-space:1px;
+    color: #FFF;
+    padding-bottom:10px;
+}
+
+.contact-section p
+{
+    color: rgba(255, 255, 255, 0.82);
+    font-size:20px;
+    line-height: 30px;
+    font-weight:400;
+    font-family:"Open Sans", arial;
+}
+.contact-section button
+{
+    padding: 25px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius:3px;
+    cursor:pointer;
+    transition: all 1s;
+    position: absolute;
+    top: 50%;
+    right:5%;
+}
+
+.contact-section button:hover
+{
+    background-color: #333333;
+    color:#FFF;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+.about-us
+{
+    background-color: #1f2021;
+    padding:50px 0;
+    overflow: auto;
+}
+
+.about , .opening-hours , .pages , .contact-details
+{
+    float: left;
+    width:25%;
+    padding:20px 10px;
+}
+
+.about-us h2
+{
+    margin-bottom:20px;
+    color:#FFF;
+    font-size:17px;
+    font-weight:300;
+}
+
+.about-us p
+{
+    color: #58606b;
+    line-height:2em;
+}
+
+.about-us p i
+{
+    padding-right:5px;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+
+.fotter
+{
+    background-color: #191919;
+    padding:25px 0;
+}
+
+.copy-right
+{
+    float:left;
+    color: #FFF;
+}
+
+.fotter-icon
+{
+    float: right;
+}
+
+.fotter-icon i
+{
+    font-size:30px;
+    padding-right:5px;
+    color:#f2f2f2;
+    cursor: pointer;
+}
+
+.fotter-icon i:hover
+{
+    color:#2196F3;
+}
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+.aside-icon
+{
+    position: absolute;
+    top:40%;
+    right:0;
+    position:fixed;
+    padding:10px;
+    background-color: #FFF;
+    border-radius:3px;
+}
+
+.aside-icon i
+{
+    color: #666;
+    padding:6px 0;
+    font-size:18px;
+    cursor: pointer;
+}
+
+.aside-icon i:hover {color: #2196F3;}
+
+
+/*--------------------------------------------------------------------------------------------*/
+
+
+
+
+
+@media (max-width: 767px) /*xs mobile*/
+{
+    .caption h1
+   {
+    margin-bottom: 40px;
+    font-size:20px;
+   }
+    
+    .caption p
+   {
+    margin-bottom:15px;    
+   }
+   .adv p{ font-size:15px; line-height:20px;} 
+    .content
+    {
+        width:100%;
+        float: none;
+        margin-bottom:40px;
+    }
+    .services
+   {
+    float: none;
+    width: 100%;  
+   }
+    
+  
+   .sec-info , .img-tem
+  {
+    width:100%;
+   } 
+    .img-tem img {padding:0; margin-top:2em;}
+    .our-secret{padding-left:3em;}
+    .msg{width:100%;}
+    .about-info{width:100%;padding:0;margin-bottom:10px}
+    .service{width:100%;}
+    .logo-section{padding:0}
+    .img-logo{width:60%;margin: auto;float: none; text-align: center;}
+    .contact-section button{padding: 13px 15px;
+    letter-spacing: .5px;
+}
+    .about , .opening-hours , .pages , .contact-details
+    {width: 100%;}
+}
+
+@media (min-width: 768px) /*small*/
+{
+    
+}
+
+@media (max-width: 992px) /*md*/
+{    
+    .nav
+    {
+        
+    }
+    .nav ul li{display:none;}
+    .nav .logo
+    {
+        position: fixed;
+        top: 0px;
+        left: 30px;
+        
+    }
+    .navbar-icon
+{
+  padding-top: 20px;
+  cursor: pointer;
+  display: block;
+  position: fixed;
+  top: 20px;
+  right: 30px;
+}
+     
+    .advantages { padding:100px 0 ; }
+}
+
+@media (min-width: 1200px) /*lage*/
+{
+    
+}
+
+
+.map
+{
+    padding: 50px;
+    width: 90%;
+    height: 600px;
+    margin: auto;
+}
+
